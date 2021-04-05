@@ -1,11 +1,26 @@
+/* Задание 3 */
+.gallery__list {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  padding-left: 0;
+}
+
+.gallery__img {
+  display: block;
+}
+
+
+/* Задание */
+
 #validation-input {
-    border: 3px solid #bdbdbd;
-  }
-  
-  #validation-input.valid {
-    border-color: #4caf50;
-  }
-  
-  #validation-input.invalid {
-    border-color: #f44336;
-  }
+  border: 3px solid #bdbdbd;
+}
+
+#validation-input.valid {
+  border-color: #4caf50;
+}
+
+#validation-input.invalid {
+  border-color: #f44336;
+}
